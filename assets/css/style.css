@@ -391,12 +391,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 50px;
+  height: 30px;
   display: block;
   background: none;
+  font-size: 14px;
 }
 
 .skills .progress .skill {
@@ -410,7 +411,7 @@ section {
 }
 
 .skills .progress .skill .val {
-  float: right;
+  float: left;
   font-style: normal;
 }
 
@@ -1045,7 +1046,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+/* #footer {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
@@ -1074,4 +1075,23 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+} */
+
+footer {
+  text-align: right;
+  color: #f8f8f8;
+  padding: 0px 0;
+  background: white;
+}
+
+footer .copyright {
+  margin-bottom: .01rem;
+}
+
+footer .credits {
+  margin-bottom: 0;
+}
+
+footer .credits a {
+  color: #f8f8f8;
 }
