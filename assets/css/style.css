@@ -215,6 +215,14 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+/* background cover image to display face clearly on mobile */
+@media all and (max-width: 499px) {
+  #hero {
+   background-image: url('../img/hero-bg1-mobile.jpg');
+  }
+}
+
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.6);
